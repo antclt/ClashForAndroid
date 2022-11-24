@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - name: ""
-    server: 104.25.174.178
+    server: 173.245.49.96
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -21,7 +21,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 2"
-    server: 104.20.106.19
+    server: 172.66.40.107
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -36,7 +36,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 3"
-    server: 172.64.92.176
+    server: 172.64.156.20
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -51,7 +51,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 4"
-    server: 190.93.244.231
+    server: 173.245.49.130
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -66,7 +66,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 5"
-    server: 104.19.70.97
+    server: 173.245.49.198
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -81,7 +81,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 6"
-    server: 104.24.42.6
+    server: 103.21.244.120
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -96,7 +96,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 7"
-    server: 104.24.44.31
+    server: 172.67.214.115
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -111,7 +111,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 8"
-    server: 104.21.21.184
+    server: 103.21.244.145
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -126,7 +126,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 9"
-    server: 141.101.123.201
+    server: 103.21.244.142
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
@@ -141,7 +141,7 @@ proxies:
         Host: sugar.ee-y.com
     udp: true
   - name: " 10"
-    server: 172.67.149.198
+    server: 172.67.20.188
     port: 443
     type: vmess
     uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
