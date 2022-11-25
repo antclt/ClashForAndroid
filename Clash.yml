@@ -6,10 +6,70 @@ log-level: info
 external-controller: :9090
 proxies:
   - name: ""
+    server: 103.21.244.159
+    port: 443
+    type: vmess
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: raks.ee-y.com
+    udp: true
+  - name: " 2"
+    server: 173.245.49.21
+    port: 443
+    type: vmess
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: raks.ee-y.com
+    udp: true
+  - name: " 3"
+    server: 173.245.49.137
+    port: 443
+    type: vmess
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: raks.ee-y.com
+    udp: true
+  - name: " 4"
+    server: 172.67.251.54
+    port: 443
+    type: vmess
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: raks.ee-y.com
+    udp: true
+  - name: " 5"
     server: 173.245.49.96
     port: 443
     type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
     alterId: 0
     cipher: auto
     tls: true
@@ -18,73 +78,13 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: sugar.ee-y.com
-    udp: true
-  - name: " 2"
-    server: 172.66.40.107
-    port: 443
-    type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sugar.ee-y.com
-    udp: true
-  - name: " 3"
-    server: 172.64.156.20
-    port: 443
-    type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sugar.ee-y.com
-    udp: true
-  - name: " 4"
-    server: 173.245.49.130
-    port: 443
-    type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sugar.ee-y.com
-    udp: true
-  - name: " 5"
-    server: 173.245.49.198
-    port: 443
-    type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sugar.ee-y.com
+        Host: raks.ee-y.com
     udp: true
   - name: " 6"
-    server: 103.21.244.120
+    server: 103.21.244.157
     port: 443
     type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
     alterId: 0
     cipher: auto
     tls: true
@@ -93,13 +93,13 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: sugar.ee-y.com
+        Host: raks.ee-y.com
     udp: true
   - name: " 7"
-    server: 172.67.214.115
+    server: 172.67.153.53
     port: 443
     type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
     alterId: 0
     cipher: auto
     tls: true
@@ -108,13 +108,13 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: sugar.ee-y.com
+        Host: raks.ee-y.com
     udp: true
   - name: " 8"
-    server: 103.21.244.145
+    server: 172.64.155.203
     port: 443
     type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
     alterId: 0
     cipher: auto
     tls: true
@@ -123,13 +123,13 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: sugar.ee-y.com
+        Host: raks.ee-y.com
     udp: true
   - name: " 9"
-    server: 103.21.244.142
+    server: 103.21.244.246
     port: 443
     type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
     alterId: 0
     cipher: auto
     tls: true
@@ -138,13 +138,13 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: sugar.ee-y.com
+        Host: raks.ee-y.com
     udp: true
   - name: " 10"
-    server: 172.67.20.188
+    server: 103.21.244.156
     port: 443
     type: vmess
-    uuid: 5fd69e44-01d5-4105-ad53-2ff605cdafd9
+    uuid: ef1c7107-aa12-4f16-afbf-94a208491ca8
     alterId: 0
     cipher: auto
     tls: true
@@ -153,7 +153,7 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: sugar.ee-y.com
+        Host: raks.ee-y.com
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
